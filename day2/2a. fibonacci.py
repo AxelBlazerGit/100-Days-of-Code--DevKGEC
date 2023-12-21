@@ -1,5 +1,5 @@
 def fiboRecurse(n, sequence=[0, 1]):
-    if n <= len(sequence):
+    if n<=len(sequence):
         return sequence[:n]
     sequence.append(sequence[-1] + sequence[-2])
     return fiboRecurse(n, sequence)
