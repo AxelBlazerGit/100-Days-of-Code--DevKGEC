@@ -1,0 +1,1 @@
+print(input("enter a sentence to reverse it: ")[::-1])
